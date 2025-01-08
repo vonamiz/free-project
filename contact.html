@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="bg-red-700 text-white py-6">
+      <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold">Контакты</h1>
+      </div>
+    </header>
+    <div class="contact py-12 bg-gray-100" id="contact">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Контакты</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div>
+              <h3 class="text-2xl font-semibold mb-4 text-gray-700">Наши контакты</h3>
+              <p class="text-lg text-gray-600 mb-4">
+                Свяжитесь с нами, чтобы задать вопросы или получить помощь в выборе товаров.
+              </p>
+              <ul class="text-lg text-gray-600 space-y-3">
+                <li><strong>Телефон:</strong> +7 (967) 265-26-66</li>
+                <li><strong>Email:</strong> info@kendo-shop.ru</li>
+                <li><strong>Адрес:</strong> Москва, ул. Кендо, д. 10</li>
+                <li><strong>Часы работы:</strong> Пн-Пт с 10:00 до 19:00</li>
+              </ul>
+            </div>
+           
+            <div class="relative">
+              <img
+                src="istockphoto-1095421732-612x612.jpg"
+                alt="Карта расположения магазина"
+                class="rounded-lg shadow-md mb-4"/>
+              <p class="text-sm text-gray-500 italic">
+                Мы находимся в центре города, рядом с метро "Кендо".
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h3 class="font-bold mb-6 text-gray-800 text-center border-2 border-red-500 px-4 py-2 rounded-md">
+              Расписание занятий
+            </h3>
+            <h4 class="font-semibold text-center mb-6 border-2 border-red-500 px-4 py-2 rounded-md">
+              ждем вас
+            </h4>
+            <table class="min-w-full border-collapse border border-gray-300 text-gray-700">
+              <thead class="bg-gray-200">
+                <tr>
+                  <th class="border border-gray-300 px-6 py-3 text-left text-lg font-medium">День недели</th>
+                  <th class="border border-gray-300 px-6 py-3 text-left text-lg font-medium">Время</th>
+                  <th class="border border-gray-300 px-6 py-3 text-left text-lg font-medium">Уровень</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="odd:bg-white even:bg-gray-100">
+                  <td class="border border-gray-300 px-6 py-3">Понедельник</td>
+                  <td class="border border-gray-300 px-6 py-3">18:00 - 19:30</td>
+                  <td class="border border-gray-300 px-6 py-3">Начинающие</td>
+                </tr>
+                <tr class="odd:bg-white even:bg-gray-100">
+                  <td class="border border-gray-300 px-6 py-3">Среда</td>
+                  <td class="border border-gray-300 px-6 py-3">19:00 - 20:30</td>
+                  <td class="border border-gray-300 px-6 py-3">Продвинутые</td>
+                </tr>
+                <tr class="odd:bg-white even:bg-gray-100">
+                  <td class="border border-gray-300 px-6 py-3">Пятница</td>
+                  <td class="border border-gray-300 px-6 py-3">18:30 - 20:00</td>
+                  <td class="border border-gray-300 px-6 py-3">Все уровни</td>
+                </tr>
+                <tr class="odd:bg-white even:bg-gray-100">
+                  <td class="border border-gray-300 px-6 py-3">Суббота</td>
+                  <td class="border border-gray-300 px-6 py-3">10:00 - 11:30</td>
+                  <td class="border border-gray-300 px-6 py-3">Дети</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>

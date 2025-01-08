@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Товары для кендо</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="bg-red-700 text-white py-6">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-3xl font-bold">Товары для кендо</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="./about.html" class="hover:underline">о нас</a></li>
+            <li><a href="./products.html" class="hover:underline">товары</a></li>
+            <li><a href="./contact.html" class="hover:underline">контакт</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="about py-12 bg-white" id="about">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-semibold text-center mb-4">МАСТЕРСКАЯ БАМБУКА</h2>
+        <p class="text-center text-gray-600">
+          Путь меча начинается здесь: лучшие бамбуковые синаи для мастерства и побед.</p>
+        <h1 class="text-center text-gray-600">
+          Место, где традиции японского искусства встречаются с современным качеством. Мы создаем условия, чтобы каждый удар, каждая техника и каждая тренировка приближали вас к совершенству. Начните свой путь в кендо с нашим снаряжением — созданным для тех, кто стремится быть лучшим.</h1>
+        </div>
+    </div>
+
+    <div class="products py-12" id="products">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-semibold text-center mb-8">лидеры продаж</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="product bg-white rounded-lg shadow-md p-6">
+            <img
+              src="./assets/img/img_1.jpg"
+              alt="Синай бамбуковый"
+              class="rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Боккен бамбуковый 39АА</h3>
+            <p class="text-gray-600 mb-2">
+              Классический бамбуковый меч для тренировок
+            </p>
+            <p class="text-lg font-bold mb-4">2500 ₽</p>
+            <button
+              class="bg-red-700 text-white py-2 px-4 rounded hover:bg-red-900"
+            >
+              купить
+            </button>
+          </div>
+
+          <div class="product bg-white rounded-lg shadow-md p-6">
+            <img
+              src="./assets/img/img_2.jpg"
+              alt="Синай бамбуковый"
+              class="rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Боккен бамбуковый 36А</h3>
+            <p class="text-gray-600 mb-2">
+              Детский бамбуковый меч для тренировок
+            </p>
+            <p class="text-lg font-bold mb-4">2200 ₽</p>
+            <button
+              class="bg-red-700 text-white py-2 px-4 rounded hover:bg-red-900"
+            >
+              купить
+            </button>
+          </div>
+
+          <div class="product bg-white rounded-lg shadow-md p-6">
+            <img
+              src="./assets/img/img_3.jpg"
+              alt="Синай бамбуковый"
+              class="rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Боккен бамбуковый 39АА</h3>
+            <p class="text-gray-600 mb-2">
+              Классический бамбуковый меч для тренировок
+            </p>
+            <p class="text-lg font-bold mb-4">2500 ₽</p>
+            <button
+              class="bg-red-700 text-white py-2 px-4 rounded hover:bg-red-900">
+              купить
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full mx-auto px-36 table text-gray-900 font-semibold mb-10">
+      <h4 class="text-2xl font-bold text-center mb-6">Характеристика синая</h4>
+      <table class="min-w-full border-collapse">
+        <thead>
+          <tr class="bg-red-600 text-white">
+            <th class="px-6 py-3 text-center text-lg font-medium uppercase">Размер</th>
+            <th class="px-6 py-3 text-center text-lg font-medium uppercase">Возраст</th>
+            <th class="px-6 py-3 text-center text-lg font-medium uppercase">Дополнительное</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">39АА</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">от 15 лет</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">мужской утяжеленный</td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">37АА</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">от 15 лет</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">женский облегченный</td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">36АА</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">до 15 лет</td>
+            <td class="px-6 py-3 text-center border-b border-red-300 text-lg">детский облегченный</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </body>
+</html>
